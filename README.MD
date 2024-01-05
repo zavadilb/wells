@@ -1,9 +1,7 @@
 # Wells - 3D simulation engine
 A low-level 3D engine with basic physics simulation and debugging features. Written in C++ using the [OpenGL library](https://www.opengl.org/). The shader language used is GLSL. The program uses its own vertex, fragment and geometry shaders and all geometries are defined in code (hard-coded or for more complicated shapes parametric surfaces are used). The lighting is achieved by having a light source defined in the virtual world. The basic fragment shader implements the [Blinn-Phong model](https://en.wikipedia.org/wiki/Blinn%E2%80%93Phong_reflection_model).
 
-<video width="1280" height="720" controls>
-  <source src="https://drive.google.com/file/d/1UeZQ_8Ekj76wekJb2x8rw5xpXsZRlq44/view?usp=sharing" type="video/mp4">
-</video>
+<iframe src="https://drive.google.com/file/d/1fF55C_GGbnm-HfFkJFHZSyaBH2RvTAN0/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ## Features
 | Key / Button      | Feature |
