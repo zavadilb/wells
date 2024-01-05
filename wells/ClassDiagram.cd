@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="CuboidMesh">
+    <Position X="10.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAUAAAAAAACEAAAAAAAAAAAA=</HashCode>
+      <FileName>cuboid_mesh.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Geometry">
+    <Position X="10.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAEAAAAIAAAAAAAABgAAAAAAAAAAAgAA=</HashCode>
+      <FileName>geometry.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParamSurface">
+    <Position X="3.75" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAIAAAAAAAAAAAEAAARAAAAAAAg=</HashCode>
+      <FileName>param_surface.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PinkNoiseTerrain">
+    <Position X="8" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAIAAAAAAQAAAABAAAAAAQAAAEAgEAQAAEAIAAA=</HashCode>
+      <FileName>pink_noise_terrain.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeObject">
+    <Position X="1" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAQEAAIAAAAAAAAEAAAAAIAAACQCAAA=</HashCode>
+      <FileName>composite_object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameObject">
+    <Position X="2.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAAAAAAAAAAAAoIQIAACAAAEAAACAAABCEZABAA=</HashCode>
+      <FileName>game_object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LeafObject">
+    <Position X="4.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAgAAIAAAAAAQAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>leaf_object.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="geometry" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Body">
+    <Position X="3.25" Y="12.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAASAAAAAABCAAAAARAAACBAAEAAACBsABJCQABAA=</HashCode>
+      <FileName>body.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arrow">
+    <Position X="1" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAIgAAAAAAAA=</HashCode>
+      <FileName>arrow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Cone">
+    <Position X="1.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAgAAAAAAAAAACAAAQAAABAAAA=</HashCode>
+      <FileName>cone.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Cylinder">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAQAAAAAAAAAAAAAAACAAAQAAAAAAAA=</HashCode>
+      <FileName>cylinder.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Sphere">
+    <Position X="3.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAQAAAAAAAAAAACAAAQAAAAAAAA=</HashCode>
+      <FileName>sphere.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="TriangleMesh">
+    <Position X="10.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAABAAAAAAAA=</HashCode>
+      <FileName>triangle_mesh.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

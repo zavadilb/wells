@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="world">
+      <UniqueIdentifier>{f31bda43-7552-47a5-bc2f-e24ff7b809f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPU">
+      <UniqueIdentifier>{78a98138-cc07-4883-8b13-d5c4bee295ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{ef35672c-f378-4d9d-ba9a-56a0977f115e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world\geometry">
+      <UniqueIdentifier>{5a15ff59-440e-4943-800e-055732057221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="world\object">
+      <UniqueIdentifier>{aac12c32-5105-4451-9474-41f0764a13fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="physics">
+      <UniqueIdentifier>{bc228836-1168-4b82-a288-67d5deea4e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPU\surface">
+      <UniqueIdentifier>{f518d0e1-6229-471c-b058-a9bba8e117a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPU\surface\shadow_depth">
+      <UniqueIdentifier>{3c931693-f733-4e0b-b9bb-1697a6e01f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GPU\surface\normal_display">
+      <UniqueIdentifier>{eba70367-33b4-4282-b727-81e9811fc058}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="ClassDiagram.cd" />
+    <None Include="normal_display_fragment.glsl">
+      <Filter>GPU\surface\normal_display</Filter>
+    </None>
+    <None Include="normal_display_geometry.glsl">
+      <Filter>GPU\surface\normal_display</Filter>
+    </None>
+    <None Include="normal_display_vertex.glsl">
+      <Filter>GPU\surface\normal_display</Filter>
+    </None>
+    <None Include="surface_fragment.glsl">
+      <Filter>GPU\surface</Filter>
+    </None>
+    <None Include="surface_vertex.glsl">
+      <Filter>GPU\surface</Filter>
+    </None>
+    <None Include="shadow_depth_vertex.glsl">
+      <Filter>GPU\surface\shadow_depth</Filter>
+    </None>
+    <None Include="shadow_depth_fragment.glsl">
+      <Filter>GPU\surface\shadow_depth</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="framework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="triangle_mesh.cpp">
+      <Filter>world\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="param_surface.cpp">
+      <Filter>world\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="geometry.cpp">
+      <Filter>world\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="cuboid_mesh.cpp">
+      <Filter>world\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="cfg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="body.cpp">
+      <Filter>world\object</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>world</Filter>
+    </ClCompile>
+    <ClCompile Include="well.cpp">
+      <Filter>world\object</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamic_object.cpp">
+      <Filter>world\object</Filter>
+    </ClCompile>
+    <ClCompile Include="normal_display_shader.cpp">
+      <Filter>GPU\surface\normal_display</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow_depth_shader.cpp">
+      <Filter>GPU\surface\shadow_depth</Filter>
+    </ClCompile>
+    <ClCompile Include="surface_shader.cpp">
+      <Filter>GPU\surface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mat4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec4.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="gpu_program.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="cuboid_mesh.h">
+      <Filter>world\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="geometry.h">
+      <Filter>world\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_platform.h">
+      <Filter>world\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="param_surface.h">
+      <Filter>world\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="pink_noise_terrain.h">
+      <Filter>world\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>world\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle.h">
+      <Filter>world\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="triangle_mesh.h">
+      <Filter>world\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object.h">
+      <Filter>world\object</Filter>
+    </ClInclude>
+    <ClInclude Include="leaf_object.h">
+      <Filter>world\object</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="cfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="body.h">
+      <Filter>world\object</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>world</Filter>
+    </ClInclude>
+    <ClInclude Include="cylinder.h">
+      <Filter>world\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="cone.h">
+      <Filter>world\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="composite_object.h">
+      <Filter>world\object</Filter>
+    </ClInclude>
+    <ClInclude Include="arrow.h">
+      <Filter>world\object</Filter>
+    </ClInclude>
+    <ClInclude Include="well.h">
+      <Filter>world\object</Filter>
+    </ClInclude>
+    <ClInclude Include="dynamic_object.h">
+      <Filter>world\object</Filter>
+    </ClInclude>
+    <ClInclude Include="normal_display_shader.h">
+      <Filter>GPU\surface\normal_display</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow_depth_shader.h">
+      <Filter>GPU\surface\shadow_depth</Filter>
+    </ClInclude>
+    <ClInclude Include="surface_shader.h">
+      <Filter>GPU\surface</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
